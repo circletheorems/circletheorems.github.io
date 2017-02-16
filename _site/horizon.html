@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Applications of Circle Theorems with Marine Navigation</title>
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=fecf097e2932c6ebb7672bb655c27a739eac6f48">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Applications of Circle Theorems with Marine Navigation</h1>
+      <h2 class="project-tagline">The earth is a big circle. We have lived there for hundred thousands of years, yet we have not explored it all...</h2>
+        <a href="./" class="btn"><strong>Home</strong></a><a href="./download" class="btn">Download</a><a href="./horizon" class="btn">Calculator</a>
+      
+    </section>
+
+    <section class="main-content">
+      <p>Below is a calculator that automatically calculates the distance to the horizon. The only value you need to input is your height relative to sea level (in meters). It does all the trigonometry calculations for you!</p>
+
+<iframe src="https://jscalc.io/embed/yeqfVAvPbM26JS4Q" width="830" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border: 1px solid rgba(0,0,0,0.12)"></iframe>
+
+<h2 id="header-2source-code"><a href="#header-2"></a>Source code:</h2>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="s1">'use strict'</span><span class="p">;</span>
+
+<span class="kd">var</span> <span class="nx">radian</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">acos</span><span class="p">(</span><span class="nx">inputs</span><span class="p">.</span><span class="nx">radius</span> <span class="o">/</span> <span class="p">((</span><span class="nx">inputs</span><span class="p">.</span><span class="nx">height</span><span class="o">/</span><span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="nx">inputs</span><span class="p">.</span><span class="nx">radius</span><span class="p">));</span>
+<span class="kd">var</span> <span class="nx">angle</span> <span class="o">=</span> <span class="nx">radian</span> <span class="o">*</span> <span class="p">(</span><span class="mi">180</span> <span class="o">/</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">distance</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">tan</span><span class="p">(</span><span class="nx">radian</span><span class="p">)</span> <span class="o">*</span> <span class="nx">inputs</span><span class="p">.</span><span class="nx">radius</span><span class="p">;</span>
+
+<span class="k">return</span> <span class="p">{</span>
+  <span class="na">angle</span><span class="p">:</span> <span class="nx">angle</span><span class="p">,</span>
+  <span class="na">distance</span><span class="p">:</span> <span class="nx">distance</span>
+<span class="p">};</span>
+</code></pre>
+</div>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="http://github.com/circletheorems/circletheorems.github.io">circletheorems.github.io</a> is maintained by Son PHS4.</span>
+        
+        <span class="site-footer-credits">Project by Son and Can from PHS4.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>

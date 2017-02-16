@@ -2,122 +2,55 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# [](#header-1)Welcome to the project website!
 
-[Link to another page](another-page).
+This is the website of our Mathematics project "Application of Circle Theorems with Marine Navigation". We were given a big topic area to work with, and this project idea came up by combining two of these subject areas (Core Mathematics and Additional Mathematics).
 
-There should be whitespace between paragraphs.
+In this project, we investigate and explore the applications of circle theorems with marine navigation, and we ended up with **finding the distance to the horizon**. We think that this skill is very useful for marines and seapeople, as they can figure out how far something is very easily. Even nowadays, we take the GPS for granted, but it is still very important to learn the concepts and the maths behind it. Our mathematical focus is on circle theorems (tangents, angle-in-a-semi-circle postulate) and trigonometry, please see the [research design](./documents/Research Design.pdf) for elaboration and an explanation on how we will apply these concepts into our project. For further reading on Marine Navigation, Circle Theorems and Trigonometry, please see the [introduction](./documents/Introduction.pdf) and [background](./documents/Background.pdf).
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+We thank you for visiting our website!
 
 * * *
 
-### Here is an unordered list:
+## [](#header-2)Calculator
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+![](./2017-01-17_13-51-03.png)
 
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+If you are looking for a calculator to automatically calculate the distance to the horizon, then the below link is for you. It uses the exact same theorems, including trigonometry, that we use in this project. It is written in JavaScript.
 
 
-### Definition lists can be used with HTML syntax.
+[See the calculator](./horizon)
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+***
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+## [](#header-2)Problems
 
-```
-The final element.
-```
+### [](#header-3)Example 1
+
+[**(See image)**](./documents/Problem1.png) A man on the ship need to know the nearest distance from the boat to the lighthouse and how long will the ship take to get to there. He knows that lighthouse is 90 meters tall and the earth radius (6371 km). The ship speed is 60 kilometers per hour.
+
+Find x.
+
+r = Earth's radius
+
+h = Height of the lighthouse
+
+[See solution](./solution1)
+
+### [](#header-3)Example 2
+
+[**(See image)**](./documents/Problem2.png) The ship is traveling at the speed of 800 km/h. The pilot wants to know the distance to the 600 m tower and the y angle.
+
+Find x.
+
+r = Earth's radius
+
+h = Height of the tower
+
+[See solution](./solution2)
+
+***
+
+## [](#header-2)Further reading
+*   [Marine Navigation - Mathematics: Distance of Horizon on nauticalissues.com](http://www.nauticalissues.com/en/math0.html)
+*   [Navigating by the Numbers on teachengineering.org](https://www.teachengineering.org/lessons/view/cub_navigation_lesson03)

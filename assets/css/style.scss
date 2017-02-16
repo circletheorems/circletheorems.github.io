@@ -2,3 +2,21 @@
 ---
 
 @import 'jekyll-theme-cayman';
+@import url(https://fonts.googleapis.com/css?family=Overpass);
+
+h1.project-name {
+	font-family: 'Overpass', sans-serif;
+ 	font-size: 2.35rem;
+}
+
+h2.project-tagline {
+	
+}
+
+.page-header {
+	background-image: url(/nasa-earth.jpg);
+    	background-size:     cover;         
+    	background-repeat:   no-repeat;
+	background-position: center center; 
+}
+
