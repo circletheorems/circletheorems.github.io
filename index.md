@@ -6,7 +6,7 @@ layout: default
 
 This is the website of our Mathematics project "Application of Circle Theorems with Marine Navigation". We were given a big topic area to work with, and this project idea came up by combining two of these subject areas (Core Mathematics and Additional Mathematics).
 
-In this project, we investigate and explore the applications of circle theorems with marine navigation, and we ended up with **finding the distance to the horizon**. We think that this skill is very useful for marines and seapeople, as they can figure out how far something is very easily. Even nowadays, we take the GPS for granted, but it is still very important to learn the concepts and the maths behind it. Our mathematical focus is on circle theorems (tangents, angle-in-a-semi-circle postulate) and trigonometry, please see the [research design](./documents/Research Design.pdf) for elaboration and an explanation on how we will apply these concepts into our project. For further reading on Marine Navigation, Circle Theorems and Trigonometry, please see the [introduction](./documents/Introduction.pdf) and [background](./documents/Background.pdf).
+In this project, we investigate and explore the applications of circle theorems with marine navigation, and we ended up with **finding the distance to the horizon**. We think that this skill is very useful for the seapeople (such as fishermen or ship captains), as they can figure out how far something is very easily. Even nowadays, we take the GPS for granted, but it is still very important to learn the concepts and the maths behind it. Our mathematical focus is on circle theorems (tangents, angle-in-a-semi-circle postulate) and trigonometry, please see the [research design](./documents/Research Design.pdf) for elaboration and an explanation on how we will apply these concepts into our project. For further reading on Marine Navigation, Circle Theorems and Trigonometry, please see the [introduction](./documents/Introduction.pdf) and [background](./documents/Background.pdf).
 
 We thank you for visiting our website!
 
@@ -39,7 +39,7 @@ h = Height of the lighthouse
 
 ### [](#header-3)Example 2
 
-[**(See image)**](./documents/Problem2.png) The ship is traveling at the speed of 800 km/h. The pilot wants to know the distance to the 600 m tower and the y angle.
+[**(See image)**](./documents/Problem2.png) The ship is traveling at the speed of 800 km/h. The captain wants to know the distance to the 600 m tower and the y angle.
 
 Find x.
 
